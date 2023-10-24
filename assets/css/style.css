@@ -18,6 +18,10 @@ hr {
 
 /* LATERAL BUTTON  */
 
+main div a i {
+  vertical-align: middle;
+}
+
 .back-top-button {
   position: fixed;
   bottom: 15px;
@@ -29,9 +33,9 @@ hr {
   border-radius: 10px;
   text-align: center;
   font-size: 1.5rem;
-  vertical-align: middle;
   color: palevioletred;
   box-shadow: -3px 6px 12px 0px #00000040;
+  z-index: 10;
 }
 
 .calendar-button {
@@ -45,9 +49,9 @@ hr {
   border-radius: 10px;
   text-align: center;
   font-size: 1.5rem;
-  vertical-align: middle;
   color: blue;
   box-shadow: -3px 6px 12px 0px #00000040;
+  z-index: 10;
 }
 
 .social-button {
@@ -61,9 +65,9 @@ hr {
   border-radius: 10px;
   text-align: center;
   font-size: 1.5rem;
-  vertical-align: middle;
   color: blue;
   box-shadow: -3px 6px 12px 0px #00000040;
+  z-index: 10;
 }
 
 @media screen and (min-width: 700px) {
@@ -74,6 +78,12 @@ hr {
   .calendar-button {
     top: 80px;
     z-index: 6;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main div a i {
+    vertical-align: unset;
   }
 }
 
